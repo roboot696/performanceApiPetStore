@@ -20,9 +20,3 @@ const payloadLogin = JSON.stringify({
   password: '12345',
 });
 
-/**
-export const getTargetVUS = () => {
-  const targetVUSEnv = `${__ENV.TARGET_VUS}`;
-  return isNumeric(targetVUSEnv) ? Number(targetVUSEnv) : defaultVUS;
-};
-**/
